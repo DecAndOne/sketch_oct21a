@@ -6,13 +6,13 @@
 #define DHTPIN 4
 #define DHTTYPE DHT11
 
-const char* WIFI_SSID = "十三月的P90";
-const char* WIFI_PASSWORD = "18931202212";
+const char* WIFI_SSID = "Your WIFI_SSID";
+const char* WIFI_PASSWORD = "Your WIFI_PASSWORD";
 
-const char* MQTT_SERVER = "idc4a91d.ala.eu-central-1.emqxsl.com";
+const char* MQTT_SERVER = "Your MQTT_SERVER";
 const uint16_t MQTT_PORT = 1883;
-const char* MQTT_USERNAME = "ccrright";
-const char* MQTT_PASSWORD = "071203";
+const char* MQTT_USERNAME = "Your MQTT_USERNAME";
+const char* MQTT_PASSWORD = "Your MQTT_PASSWORD";
 const char* MQTT_CLIENT_ID = "dht11-esp32-01";
 const char* MQTT_TOPIC = "YOUR_MQTT_TOPIC";
 
